@@ -5,9 +5,8 @@
 ---------------------------------------------------------------------------------------------
 ####**代码块**
 <#include<iostream>
-using namespace std;
-
- class Sum
+using namespace std;>
+<class Sum
  {
   private:                                  
     int x,y;
