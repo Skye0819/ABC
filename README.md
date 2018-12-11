@@ -15,21 +15,21 @@ using namespace std;
     Sum(int xx,int yy);
     int sum();
     ~Sum(){cout<<"调用析构函数"<<endl;}
- };
+ };>
 
- Sum::Sum(int xx,int yy)
+ <Sum::Sum(int xx,int yy)
  {
     x=xx;
     y=yy;
     cout<<"调用构造函数"<<endl;
- }
+ }>
 
- int Sum::sum()
+ <int Sum::sum()
  {
      return x+y;
- }
+ }>
 
- int main()
+ <int main()
  {
      int x,y;
      cout<<"请输入两个数:";
